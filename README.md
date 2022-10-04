@@ -39,6 +39,7 @@ sudo dnf install -y\
   zsh\
   google-chrome\
   neovim\
+  kitty\
   flameshot\
   
 
