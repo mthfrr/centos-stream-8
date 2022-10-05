@@ -20,7 +20,8 @@ sudo systemctl restart network
 
 ### Repositories
 ```sh
-sudo dnf install -y epel-release 
+sudo dnf install https://pkgs.dyn.su/el8/base/x86_64/raven-release-1.0-3.el8.noarch.rpm
+sudo dnf install -y epel-release raven-release
 sudo dnf upgrade -y
 ```
 
@@ -37,17 +38,30 @@ sudo dnf install -y\
   llvm\
   git\
   zsh\
-  google-chrome\
   neovim\
   kitty\
   flameshot\
-  
+  thunderbird\
 
 sudo snap install firefox thunderbird libreoffice 
+```
+
+### Bat
+```sh
+wget https://github.com/sharkdp/bat/releases/download/v0.22.1/bat-v0.22.1-x86_64-unknown-linux-musl.tar.gz
+TODO
 ```
 
 
 ### todo
 
-- wlr-randr
-- sway
+- i3
+- i3lock
+- i3status
+- dmenu
+- ly
+- htop
+- nvidia
+- google-chrome
+- feh
+- bat
