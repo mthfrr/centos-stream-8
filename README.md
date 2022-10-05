@@ -20,8 +20,9 @@ sudo systemctl restart network
 
 ### Repositories
 ```sh
-sudo dnf install https://pkgs.dyn.su/el8/base/x86_64/raven-release-1.0-3.el8.noarch.rpm
-sudo dnf install -y epel-release raven-release
+sudo dnf install -y https://pkgs.dyn.su/el8/base/x86_64/raven-release-1.0-3.el8.noarch.rpm
+sudo dnf install -y epel-release
+sudo dnf config-manager --set-enabled powertools
 sudo dnf upgrade -y
 ```
 
@@ -42,6 +43,15 @@ sudo dnf install -y\
   kitty\
   flameshot\
   thunderbird\
+  i3\
+  i3status\
+  i3lock\
+  dmenu\
+  htop\
+  pavucontrol\
+  keepassxc\
+  openconnect
+
 
 sudo snap install firefox thunderbird libreoffice 
 ```
@@ -55,12 +65,7 @@ TODO
 
 ### todo
 
-- i3
-- i3lock
-- i3status
-- dmenu
 - ly
-- htop
 - nvidia
 - google-chrome
 - feh
