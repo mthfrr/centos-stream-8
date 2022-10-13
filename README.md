@@ -39,7 +39,6 @@ sudo dnf install -y\
   llvm\
   git\
   zsh\
-  neovim\
   kitty\
   flameshot\
   thunderbird\
@@ -53,7 +52,9 @@ sudo dnf install -y\
   openconnect
 
 
-sudo snap install firefox thunderbird libreoffice 
+sudo snap install firefox thunderbird libreoffice
+sudo ln -s /var/lib/snapd/snap /snap
+sudo snap install --edge nvim --classic
 ```
 
 ### Bat
