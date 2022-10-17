@@ -49,7 +49,8 @@ sudo dnf install -y\
   htop\
   pavucontrol\
   keepassxc\
-  openconnect
+  openconnect\
+  clang-tools-extra
 
 
 sudo snap install firefox thunderbird libreoffice
