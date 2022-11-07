@@ -63,7 +63,16 @@ sudo snap install --edge nvim --classic
 wget https://github.com/sharkdp/bat/releases/download/v0.22.1/bat-v0.22.1-x86_64-unknown-linux-musl.tar.gz
 TODO
 ```
+### Arandr
+```sh
+sudo dnf install python3-cairo-devel gobject-introspection-devel cairo-gobject-devel
+pip3 install pycairo pygobject docutils
 
+wget http://christian.amsuess.com/tools/arandr/files/arandr-0.1.10.tar.gz
+tar xzf arandr-0.1.10.tar.gz
+cd arandr-0.1.10
+sudo ./setup.py install
+```
 
 ### todo
 
